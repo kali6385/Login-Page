@@ -1,0 +1,79 @@
+body{
+    background-image: url(background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 80pxpx;
+    margin-top: 50px;
+    font-family: "Sofia", sans-serif;
+}
+p{
+    position: relative;
+    color: black;
+    font-size: 20px;
+    font-family: 'Segoe UI','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    left: 10px;
+}
+.topHeader{
+    font-size: 30px;
+    position: relative;
+    left: 10px;
+    bottom: 40px;
+    font-family: comic Sans Ms;
+}
+.formBox{
+    display: flex;
+    position: relative;
+    padding: 80px;
+    width: 300px;
+    height: 400px;
+    background: transparent;
+    justify-self: center;
+    border: 2px solid white;
+    border-radius: 20px;
+    backdrop-filter: blur(5px);
+}
+.formContainer{
+    display: flex;
+    flex-direction: column;
+}
+.inputText{
+    height: 40px;
+    width:100%;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    padding: 0 0 0 20px;
+    opacity: 90px;
+    color: black;
+}
+::-webkit-input-placeholder{
+    color: rgb(49,48,48);
+}
+i{
+    position: relative;
+    top:-29px;
+    right: 20px;
+}
+#submitButton{
+    height: 40px;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    color: white;
+    font-family: Comic Sans Ms;
+    background-color: black; 
+    background-origin: initial;
+    
+}
+#forgotPW{
+    position: relative;
+    color: yellow;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    left:35px;
+}
